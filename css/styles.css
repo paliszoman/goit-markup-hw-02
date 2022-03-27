@@ -72,8 +72,10 @@
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-
+  cursor: pointer;
   color: #ffffff;
+  border-radius: 5px;
+  border: none;
 }
 .btn-list {
   /* position: absolute; */
@@ -81,6 +83,7 @@
   height: 38px;
   background-color: #f5f4fa;
   border-radius: 5px;
+  cursor: pointer;
 }
 .btn-list:hover,
 .btn-list:focus {
