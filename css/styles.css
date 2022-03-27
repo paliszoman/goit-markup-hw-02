@@ -144,7 +144,6 @@ body {
   /* identical to box height */
   /* text-align: center; */
   letter-spacing: 0.03em;
-  color: var(--grey);
 }
 
 .headline-main-div {
@@ -167,5 +166,4 @@ body {
 
   /* identical to box height, or 188% */
   letter-spacing: 0.03em;
-  color: var(--grey);
 }
