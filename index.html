@@ -16,21 +16,23 @@
   <body>
     <header>
       <span class="logo-blue">Web</span><span class="logo-black">Studio</span>
-      <nav>
-        <ul>
-          <li><a href="index.html">Agencja</a></li>
-          <li><a href="portfolio.html">Portfolio</a></li>
-          <li><a href="#kontakt">Kontakt</a></li>
-        </ul>
-      </nav>
+       <ul>
+        <nav>
+          <li><a href="index.html" class="subpages">Agencja</a></li>
+          <li><a href="portfolio.html" class="subpages">Portfolio</a></li>
+          <li><a href="#kontakt" class="subpages">Kontakt</a></li>
+        </nav>
 
-      <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-      <a href="tel:+48111111111">+48 111 111 111</a>
+        <li><a href="mailto:info@devstudio.com" class="subpages">info@devstudio.com</a></li>
+        <li><a href="tel:+48111111111" class="subpages">+48 111 111 111</a></li>
+      </ul>
     </header>
     <main>
       <section>
-        <h1>EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
+        <div class="headline-main-div">
+        <h1 class="headline-main">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
         <button type="button" class="btn-primary">Zamów usługę</button>
+        </div>
 
         <ul>
           <li class="main-site-description">
@@ -65,7 +67,7 @@
       
 
       <section>
-        <h2>Czym się zajmujemy</h2>
+        <h2 class="headline-second">Czym się zajmujemy</h2>
 
         <ul>
           <li><img src="images/job/box1.jpg" alt="komputer" width="370" height="294" /></li>
@@ -76,14 +78,16 @@
         </ul>
       </section>
       <section>
-        <h2>Nasz zespół</h2>
+        <h2 class="headline-second">Nasz zespół</h2>
         <ul>
           <li>
             <figure>
               <img src="images/crew/1.jpg" alt="John Doe" width="270" height="260" />
               <figcaption>
-                <h3>John Doe</h3>
-                <p>Product Designer</p>
+                <ul>
+                  <li class="crew-name">John Doe</li>
+                  <li class="crew-tag">Product Designer</li>
+                </ul>
               </figcaption>
             </figure>
           </li>
@@ -92,8 +96,10 @@
             <figure>
               <img src="images/crew/2.jpg" alt="John Doe2" width="270" height="260" />
               <figcaption>
-                <h3>John Doe</h3>
-                <p>Product Designer</p>
+                <ul>
+                  <li class="crew-name">John Doe</li>
+                  <li class="crew-tag">Frontend Developer</li>
+                </ul>
               </figcaption>
             </figure>
           </li>
@@ -102,8 +108,10 @@
             <figure>
               <img src="images/crew/3.jpg" alt="John Doe3" width="270" height="260" />
               <figcaption>
-                <h3>John Doe</h3>
-                <p>Product Designer</p>
+                <ul>
+                  <li class="crew-name">John Doe</li>
+                  <li class="crew-tag">Marketing</li>
+                </ul>
               </figcaption>
             </figure>
           </li>
@@ -112,8 +120,10 @@
             <figure>
               <img src="images/crew/4.jpg" alt="John Doe4" width="270" height="260" />
               <figcaption>
-                <h3>John Doe</h3>
-                <p>Product Designer</p>
+                <ul>
+                  <li class="crew-name">John Doe</li>
+                  <li class="crew-tag">UI Designer</li>
+                </ul>
               </figcaption>
             </figure>
           </li>
@@ -122,14 +132,16 @@
     </main>
 
     <footer>
-      <span class="logo-blue">Web</span><span class="logo-black">Studio</span>
+      <div class="footer">
+      <span class="logo-blue">Web</span><span class="logo-white">Studio</span>
       <address>
         <ul>
-          <li>m. Warszawa, Aleje Jerozolimskie 21</li>
-          <li>info@example.com</li>
-          <li>+48 111 111 111</li>
+          <li class="address-place">m. Warszawa, Aleje Jerozolimskie 21</li>
+          <li class="address-mail">info@example.com</li>
+          <li class="address-phone">+48 111 111 111</li>
         </ul>
       </address>
+     </div>
     </footer>
   </body>
 </html>
