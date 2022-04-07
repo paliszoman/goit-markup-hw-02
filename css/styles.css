@@ -4,9 +4,12 @@
     --grey: #757575;
     --background: #2f303a;
     --white: #ffffff;
+    --logo-font: 'Raleway';
+    --body-font: 'Roboto';
+    --btn-background: #f5f4fa;
 }
 body {
-  font-family: Roboto;
+  font-family: var(--body-font);
   font-style: normal;
   color: var(--grey);
 }
@@ -16,7 +19,7 @@ body {
 .logo-blue,
 .logo-black,
 .logo-white {
-  font-family: 'Raleway';
+  font-family: var(--logo-font);
   font-weight: 700;
   font-size: 26px;
   line-height: 1.43;
@@ -96,7 +99,7 @@ body {
   /* position: absolute; */
   width: 121px;
   height: 38px;
-  background-color: #f5f4fa;
+  background-color: var(--btn-background);
   border-radius: 5px;
   cursor: pointer;
 }
